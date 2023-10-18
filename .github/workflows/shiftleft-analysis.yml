@@ -25,6 +25,7 @@ jobs:
       env:
         WORKSPACE: ""
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        OTHER_TOKEN: "password"
         SCAN_AUTO_BUILD: true
       with:
         output: reports
